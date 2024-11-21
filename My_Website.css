@@ -1,0 +1,534 @@
+
+header{
+  padding-top: 2px;
+  background-color: #ADD8E6;
+  height:400px;
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title{
+  font-size: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.title .logo{
+  height:150px;
+}
+
+.navbar{
+  font-size: 40px;
+  display:flex;
+  justify-content:space-evenly;
+}
+
+.tab a{
+  border:2px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #E0E0E0;
+  padding:10px;
+}
+
+footer{
+  background-color: #ADD8E6;
+  height:60px;
+  text-align: center;
+  padding:20px;
+  font-size: 30px;
+}
+
+/* Home page styling */
+.hero {
+  text-align: center;
+}
+
+.hero-content {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.achievements {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.achievement-box {
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+}
+
+.achievement-icon {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+
+
+
+/* About Us Styling */
+.AboutUscontent{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div1{
+    font-size: 30px;
+    padding-left: 100px;
+    padding-top: 40px;
+    height: 600px;
+}
+
+.div2{
+    padding-left: 60px;
+    font-size: 30px;
+    width:1000px;
+}
+
+.div3{
+    padding-left: 60px;
+    font-size: 30px;
+    width:1000px;
+    padding-top: -100px;
+}
+
+.div4{
+    padding-left: 100px;
+    padding-top: 40px;
+    height: 600px;
+}
+
+.Gallerycontent{
+    padding: 0px 80px 0px 80px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+/* Shop Section Styling */
+.shop-section {
+  margin: 20px;
+  text-align: center;
+}
+
+.shop-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+  
+.product-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+  
+.product-card {
+  background-color: white;
+  width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+  
+.product-card:hover {
+  transform: scale(1.05);
+}
+  
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+  
+.product-card h3 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+  
+.product-card p {
+  font-size: 0.9rem;
+  color: #666;
+}
+  
+.product-card span {
+  font-size: 1.1rem;
+  color: #333;
+}
+  
+.product-card button {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+  
+.product-card button:hover {
+  background-color: #555;
+}
+
+
+/* Contact Us Styling */
+.ContactUs_container {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+.contact-section h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+  
+.contact-section p {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+  
+.contact-form {
+  margin-bottom: 20px;
+}
+  
+.contact-form label {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+  
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+  
+.contact-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+  
+.contact-form button:hover {
+  background-color: #555;
+}
+  
+.contact-details {
+  text-align: center;
+}
+  
+.contact-details h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+  
+.contact-details p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+/* Facilities styling */
+.facilities_container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.facilities_container h1 {
+  text-align: center;
+  color: #2c3e50;
+  padding: 20px 0;
+  font-size: 50px;
+}
+
+.facility {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.facility h2 {
+  color: #2c3e50;
+  font-size: 40px;
+}
+
+.facility p {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #666;
+}
+
+.facility img {
+  max-height: 300px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+
+/* Testimonials Styling */
+
+.testimonials_container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.testimonials_container h1 {
+  text-align: center;
+  color: #0056b3;
+  margin-bottom: 20px;
+}
+
+.testimonial {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+
+.testimonial .author {
+  font-weight: bold;
+  color: #0056b3;
+  margin-top: 15px;
+}
+
+.testimonial .position {
+  color: #777;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .testimonials_container {
+        width: 90%;
+    }
+}
+
+
+/* Games Styling */
+.games_content{
+  text-align: center;
+  padding: 2em;
+  color: #2c3e50;
+}
+
+.games_content h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+.games_content p {
+  font-size: 1.2em;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.games-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2em;
+  padding: 2em;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.game {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  text-align: center;
+}
+
+.game img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.game h2 {
+  font-size: 1.5em;
+  margin: 1em 0 0.5em;
+  color: #4CAF50;
+}
+
+.game p {
+  padding: 0 1em 1.5em;
+}
+
+.more-games {
+  text-align: center;
+  padding: 2em 1em;
+  background-color: #e0e0e0;
+  color: #333;
+  border-radius: 8px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+
+
+/* Join Us Styling */
+.formfilling {
+  width: 80%;
+  max-width: 800px;
+  margin: 30px auto;
+  background-color: #ffffff;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.headings {
+  color: #2c3e50;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1.headings {
+  font-size: 1.8em;
+  color: #1d84b5;
+}
+
+h2.headings {
+  font-size: 1.4em;
+  margin-top: 30px;
+}
+
+
+label {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+input[type="email"],
+input[type="number"],
+input[type="time"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #cfd8dc;
+  border-radius: 5px;
+  font-size: 1em;
+  transition: border-color 0.3s;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #1d84b5;
+  outline: none;
+}
+
+input[type="radio"] {
+  margin-right: 8px;
+  margin-left: 15px;
+  vertical-align: middle;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  width: 48%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #1d84b5;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #0e6782;
+}
+
+input[type="reset"] {
+  background-color: #b0bec5;
+  color: #2c3e50;
+}
+
+input[type="reset"]:hover {
+  background-color: #90a4ae;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.personalinfo,
+.parentinfo,
+.academicinfo,
+.sportinfo {
+  margin-bottom: 20px;
+}
+
+.personalinfo label,
+.parentinfo label,
+.academicinfo label,
+.sportinfo label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .formfilling {
+      padding: 20px;
+  }
+
+  input[type="submit"],
+  input[type="reset"] {
+      width: 100%;
+      margin-bottom: 15px;
+  }
+}
+
+
